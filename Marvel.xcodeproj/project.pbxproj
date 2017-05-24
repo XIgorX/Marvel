@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		780F34851ED0B8E1005BD55B /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F34841ED0B8E1005BD55B /* CollectionViewFlowLayout.swift */; };
 		784B81A81EC9CE91002FEBD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784B81A71EC9CE91002FEBD7 /* AppDelegate.swift */; };
 		784B81AA1EC9CE91002FEBD7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784B81A91EC9CE91002FEBD7 /* AboutViewController.swift */; };
 		784B81AD1EC9CE91002FEBD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784B81AB1EC9CE91002FEBD7 /* Main.storyboard */; };
@@ -92,7 +91,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		780F34841ED0B8E1005BD55B /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		784B81A41EC9CE91002FEBD7 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784B81A71EC9CE91002FEBD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		784B81A91EC9CE91002FEBD7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 				784B81B11EC9CE91002FEBD7 /* Assets.xcassets */,
 				787206251ED04B94000318CA /* CollectionViewCell.swift */,
 				78EA12411ECDCCEA00FAD1E9 /* CollectionViewController.swift */,
-				780F34841ED0B8E1005BD55B /* CollectionViewFlowLayout.swift */,
 				788C0EB71ED4761800B15A1D /* ComicsViewController.swift */,
 				788C0EBA1ED4766900B15A1D /* StoriesViewController.swift */,
 				788C0EBC1ED4767800B15A1D /* EventsViewController.swift */,
@@ -510,7 +507,6 @@
 				787206261ED04B94000318CA /* CollectionViewCell.swift in Sources */,
 				784B82831EC9F83D002FEBD7 /* Timeline.swift in Sources */,
 				784B82791EC9F83D002FEBD7 /* Notifications.swift in Sources */,
-				780F34851ED0B8E1005BD55B /* CollectionViewFlowLayout.swift in Sources */,
 				784B827A1EC9F83D002FEBD7 /* ParameterEncoding.swift in Sources */,
 				784B81B01EC9CE91002FEBD7 /* Marvel.xcdatamodeld in Sources */,
 				784B827B1EC9F83D002FEBD7 /* Request.swift in Sources */,
