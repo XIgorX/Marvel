@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import Alamofire
+import Alamofire
 import SwiftyJSON
 
 class HeroViewController: UIViewController, UITabBarDelegate{
@@ -32,7 +32,7 @@ class HeroViewController: UIViewController, UITabBarDelegate{
         let defaults = UserDefaults.standard
         let id: Int = defaults.integer(forKey: "currentID")
         
-        /*Alamofire.request(String(format: "https://gateway.marvel.com/v1/public/characters/%i?ts=%i&apikey=%@&hash=%@&limit=%i", id, timestamp, public_key, md5_hash, request_limit), method: .get).validate().responseJSON { response in
+        Alamofire.request(String(format: "https://gateway.marvel.com/v1/public/characters/%i?ts=%i&apikey=%@&hash=%@&limit=%i", id, timestamp, public_key, md5_hash, request_limit), method: .get).validate().responseJSON { response in
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
@@ -59,7 +59,7 @@ class HeroViewController: UIViewController, UITabBarDelegate{
             case .failure(let error):
                 print(error)
             }
-        }*/
+        }
         
         
     }

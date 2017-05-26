@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import Alamofire
+import Alamofire
 import SwiftyJSON
 
 //import "MD5.swift"
@@ -57,7 +57,7 @@ class CollectionViewController: UICollectionViewController {
         
         collectionView?.addSubview(refreshControl)
             
-        /*Alamofire.request(String(format: "https://gateway.marvel.com/v1/public/characters?ts=%i&apikey=%@&hash=%@&limit=%i", timestamp, public_key, md5_hash, request_limit), method: .get).validate().responseJSON { response in
+        Alamofire.request(String(format: "https://gateway.marvel.com/v1/public/characters?ts=%i&apikey=%@&hash=%@&limit=%i", timestamp, public_key, md5_hash, request_limit), method: .get).validate().responseJSON { response in
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
@@ -87,7 +87,7 @@ class CollectionViewController: UICollectionViewController {
             case .failure(let error):
                 print(error)
             }
-        }*/
+        }
 
     }
     
