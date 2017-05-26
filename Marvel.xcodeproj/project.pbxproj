@@ -81,6 +81,13 @@
 			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS";
 		};
+		785EE29A1ED8439500458B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787D630B1ECDC415004D286E /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
 		787D63181ECDC415004D286E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 787D630B1ECDC415004D286E /* SwiftyJSON.xcodeproj */;
@@ -340,6 +347,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				785EE29B1ED8439500458B60 /* PBXTargetDependency */,
 				784B82D61EC9FAB5002FEBD7 /* PBXTargetDependency */,
 			);
 			name = Marvel;
@@ -565,6 +573,11 @@
 			isa = PBXTargetDependency;
 			name = "Alamofire iOS";
 			targetProxy = 784B82D51EC9FAB5002FEBD7 /* PBXContainerItemProxy */;
+		};
+		785EE29B1ED8439500458B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 785EE29A1ED8439500458B60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
